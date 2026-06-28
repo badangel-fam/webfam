@@ -37,12 +37,15 @@
         <div class="cyber-font text-2xl font-black tracking-widest text-white">
             BAD <span class="text-[#ff007f] neon-glow-text">ANGEL</span>
         </div>
-        <div class="space-x-6 cyber-font text-sm tracking-wider hidden md:block">
-            <a href="#home" class="hover:text-[#ff007f] transition duration-300">HOME</a>
-            <a href="#roster" class="hover:text-[#ff007f] transition duration-300">ROSTER</a>
-            <a href="#outfits" class="hover:text-[#ff007f] transition duration-300">OUTFITS</a>
-            <a href="#gallery" class="hover:text-[#ff007f] transition duration-300">GALLERY</a>
-        </div>
+        <!-- ─── ปุ่มเมนูนำทางฝั่งขวา (เพิ่มเมนู VIDEOS) ─── -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="cyber-font text-sm font-bold text-zinc-400 hover:text-[#ff007f] transition duration-300">HOME</a>
+                <a href="#roster" class="cyber-font text-sm font-bold text-zinc-400 hover:text-[#ff007f] transition duration-300">ROSTER</a>
+                <a href="#outfits" class="cyber-font text-sm font-bold text-zinc-400 hover:text-[#ff007f] transition duration-300">OUTFITS</a>
+                <a href="#gallery" class="cyber-font text-sm font-bold text-zinc-400 hover:text-[#ff007f] transition duration-300">GALLERY</a>
+                <!-- ปุ่มที่เพิ่มใหม่ 🎬 -->
+                <a href="#videos" class="cyber-font text-sm font-bold text-white border-b-2 border-[#ff007f] md:border-b-0 md:text-zinc-400 hover:text-[#ff007f] transition duration-300">VIDEOS</a>
+            </div>
     </nav>
 
     <!-- ─── HERO SECTION ─── -->
@@ -387,6 +390,102 @@
 
         </div>
     </section>
+
+<!-- ─── VIDEO GALLERY SECTION (TIKTOK EMBED PLAYER - 8 VIDEOS) ─── -->
+<section id="videos" class="py-24 px-6 max-w-7xl mx-auto border-t border-zinc-900">
+    <div class="mb-12 text-center md:text-left">
+        <h2 class="cyber-font text-3xl font-black tracking-wider border-l-4 border-[#ff007f] pl-4 inline-block">MOMENTS & HIGHLIGHTS</h2>
+        <p class="text-zinc-500 text-sm mt-1">บันทึกไฮไลท์และสตอรี่ BAD ANGEL</p>
+    </div>
+
+    <!-- ตารางจัดเรียงวิดีโอ 3 คอลัมน์ (จะตัดกระชับลงมาเป็นระเบียบเองอัตโนมัติ) -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- คลิปที่ 1 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7635826685497167122" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // STORY</h3>
+            <p class="text-zinc-500 text-xs mt-1">BAD ANGEL VS realrank</p>
+        </div>
+
+        <!-- คลิปที่ 2 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7638550524807122197" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // STORY</h3>
+            <p class="text-zinc-500 text-xs mt-1">BAD ANGEL VS SIXTH SENSE</p>
+        </div>
+
+        <!-- คลิปที่ 3 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7644538212957965588" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // STORY</h3>
+            <p class="text-zinc-500 text-xs mt-1">BAD ANGEL VS Baby Rot</p>
+        </div>
+
+        <!-- คลิปที่ 4 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7638641249494240529" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Cartier's Highlisght</p>
+        </div>
+
+        <!-- คลิปที่ 5 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7635520100266757394" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Cedric's Highlight</p>
+        </div>
+
+        <!-- คลิปที่ 6 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7656129886662282503" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Jackie's Highlight</p>
+        </div>
+
+        <!-- คลิปที่ 7 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7648236535220948245" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Jackie's Highlight</p>
+        </div>
+
+        <!-- คลิปที่ 8 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7644873341995633940" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Jackie's Highlight</p>
+        </div>
+
+<!-- คลิปที่ 9 -->
+        <div class="bg-zinc-950 border border-zinc-800 p-4 transition-all duration-300 hover:border-[#ff007f] group">
+            <div class="w-full aspect-video mb-4 relative overflow-hidden border border-zinc-800 bg-black">
+                <iframe class="w-full h-full" src="https://www.tiktok.com/player/v1/7643140239468350741" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3 class="text-white font-bold tracking-wide uppercase text-sm">BAD ANGEL // HIGHLIGHT</h3>
+            <p class="text-zinc-500 text-xs mt-1">Jackie's Highlight</p>
+        </div>
+
+
+    </div>
+</section>
+
 
     <!-- ─── FOOTER ─── -->
     <footer class="border-t border-zinc-900 bg-black py-8 text-center text-xs text-zinc-600 cyber-font tracking-widest">
